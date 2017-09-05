@@ -1,5 +1,3 @@
-# wot-xvm-watchlist
-
 # Watchlist plug-in for [XVM](http://www.modxvm.com/en/)
 
 Add personalize icons for players and clans using XVM.
@@ -22,7 +20,10 @@ World_of_Tanks/res_mods/configs/watchlist.txt
 ```
 
 Formatting (tree fields separed by comma, 1 entry per line)
-SomeName, player or clan, icon.png
+
+```
+Name, player_or_clan, icon.png
+```
 
 examples:
 ```
@@ -38,4 +39,3 @@ Images are saved into:
 ```
 World_of_Tanks/res_mods/mods/shared_resources/xvm/res/
 ```
-
