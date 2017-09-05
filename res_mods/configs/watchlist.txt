@@ -1,0 +1,7 @@
+PlayerName, player, imagefile.png
+CABRA, clan, enemy.png
+bulba, clan, ally.png
+quickfingers, player, twitch.png
+skill4ltu, player, twitch.png
+sirfoch, player, twitch.png
+circonflexes, player, twitch.png
