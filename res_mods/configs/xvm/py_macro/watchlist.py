@@ -37,6 +37,7 @@ with open(watchlistfile, 'r') as fh:
 
 def find_player(key):
     key = key.lower()
+    found = False
     for index, sublist in enumerate(lst):
         if (sublist[0] == key) and (sublist[1] == 'player'):
             found = index
