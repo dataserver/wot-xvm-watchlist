@@ -17,7 +17,8 @@ Use {{py:watchlist.icon('{{name}}','{{clan}}')}} to show ICON
 
 Use {{py:watchlist.note('{{name}}','{{clan}}')}} to show Custom Text field
 
-Check screenshot-1.png for a visual representation
+![screenshot](https://raw.githubusercontent.com/dataserver/wot-xvm-watchlist/master/screenshot-1.png)
+
 
 ## watchlist.txt
 
