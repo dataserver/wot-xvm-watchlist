@@ -1,15 +1,23 @@
 # Watchlist plug-in for [XVM](http://www.modxvm.com/en/)
 
-Add personalize icons for players and clans using XVM.
+Add personalize icons and text for players and clans using XVM.
 
 ## USAGE:
 ```
-{{py:watchlist.verify('{{name}}','{{clan}}')}}
+{{py:watchlist.icon('{{name}}','{{clan}}')}}
+
+{{py:watchlist.note('{{name}}','{{clan}}')}}
 ```
 
 Use it in any *.xc files in the World_of_Tanks/res_mods/configs/xvm/:
 
 Player icons have priority over clan icons
+
+Use {{py:watchlist.icon('{{name}}','{{clan}}')}} to show ICON
+
+Use {{py:watchlist.note('{{name}}','{{clan}}')}} to show Custom Text field
+
+Check screenshot-1.png for a visual representation
 
 ## watchlist.txt
 
@@ -19,20 +27,21 @@ The list of players/clans and image icon used is saved in a text file 'watchlist
 World_of_Tanks/res_mods/configs/watchlist.txt
 ```
 
-Formatting (tree fields separed by comma, 1 entry per line)
+Formatting (fields separed by comma, 1 entry per line)
 
 ```
-Name, player_or_clan, icon.png
+Name, player_or_clan, icon.png, custom text field
 ```
 
 examples:
 ```
-Quickfingers, player, twtich.png
-skill4ltu, player, twitch.png
-sirfoch, player, twitch.png
-circonflexes, player, twitch.png
-Bulba, clan, ally.png
-CABRA, clan, enemy.png
+PlayerName, player, imagefile.png, some text here
+CABRA, clan, enemy.png, BR clan
+bulba, clan, ally.png, some xyz clan
+quickfingers, player, twitch.png, EU streamer
+skill4ltu, player, twitch.png, EU streamer
+sirfoch, player, twitch.png, EU streamer
+circonflexes, player, twitch.png, EU streamer
 ```
 
 Images are saved into:

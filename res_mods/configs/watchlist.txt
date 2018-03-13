@@ -1,7 +1,7 @@
-PlayerName, player, imagefile.png
-CABRA, clan, enemy.png
-bulba, clan, ally.png
-quickfingers, player, twitch.png
-skill4ltu, player, twitch.png
-sirfoch, player, twitch.png
-circonflexes, player, twitch.png
+PlayerName, player, imagefile.png, some text here
+CABRA, clan, enemy.png, BR clan
+bulba, clan, ally.png, some xyz clan
+quickfingers, player, twitch.png, EU streamer
+skill4ltu, player, twitch.png, EU streamer
+sirfoch, player, twitch.png, EU streamer
+circonflexes, player, twitch.png, EU streamer
