@@ -28,7 +28,7 @@ The list of players/clans and image icon used is saved in a text file 'watchlist
 World_of_Tanks/res_mods/configs/watchlist.txt
 ```
 
-Formatting (fields separed by comma, 1 entry per line)
+Formatting (fields separated by comma, 1 entry per line)
 
 ```
 Name, player_or_clan, icon.png, custom text field
